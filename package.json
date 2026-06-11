@@ -1,0 +1,22 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@eslint/json": "^2.0.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2"
+  }
+}
