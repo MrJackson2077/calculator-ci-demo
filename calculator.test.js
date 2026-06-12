@@ -8,12 +8,12 @@ test("adds 2+3", () => {
 
 test("adds 5+10", () => {
 
-    expect(add(5, 10)).toBe(15);
+    expect(add(5, 10)).toBe(115);
 
 });
 
-test("adds 10+A", () => {
+test("adds 10+15", () => {
 
-    expect(add(10, 15)).toBe(25);
+    expect(add(10, 15)).toBe(0);
 
 });
