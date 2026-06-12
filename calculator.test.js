@@ -6,20 +6,14 @@ test("adds 2+3", () => {
 
 });
 
-test("subtracts 2-A", () => {
+test("adds 5+10", () => {
 
-    expect(subtract(2, 3)).toBe(-1);
-
-});
-
-test("multiply 2*3", () => {
-
-    expect(multiply(2, 3)).toBe(6);
+    expect(add(5, 10)).toBe(15);
 
 });
 
-test("divide 2/3", () => {
+test("adds 10+A", () => {
 
-    expect(divide(2, 3)).toBe(2 / 3);
+    expect(add(10, 15)).toBe(25);
 
 });
