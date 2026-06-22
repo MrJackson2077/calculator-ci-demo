@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
-
 <body>
+    <main class="container">
+        <div class="calculator-card">
+            <h1 class="calc-header">Ayeye Calculator</h1>
+            <div class="display-container">
+                <div id="previous-operand" class="previous-operand"></div>
+                <div id="current-operand" class="current-operand">0</div>
+            </div>
+            
+            <div class="keypad">
+                <button id="btnClear" class="key key-func" title="Clear">C</button>
+                <button id="btnBack" class="key key-func" title="Backspace">⌫</button>
+                <button id="btnSq" class="key key-op" title="Square">x²</button>
+                <button id="btnSqrt" class="key key-op" title="Square Root">√</button>
 
-    <h1>Calculator Project</h1>
-    <p>Number 1 : [ ]</p>
-    <p>Number 2 : [ ]</p>
-    <p>[ Add ]</p>
-    <p>[ Subtract ]</p>
-    <p>[ Multiply ]</p>
-    <p>[ Divide ]</p>
-    <p>[ Square ]</p>
-    <p>[ Cube ]</p>
-    <p>Result :</p>
+                <button class="key key-num" data-num="7">7</button>
+                <button class="key key-num" data-num="8">8</button>
+                <button class="key key-num" data-num="9">9</button>
+                <button id="btnDiv" class="key key-op" title="Divide" data-op="÷">÷</button>
 
+                <button class="key key-num" data-num="4">4</button>
+                <button class="key key-num" data-num="5">5</button>
+                <button class="key key-num" data-num="6">6</button>
+                <button id="btnMul" class="key key-op" title="Multiply" data-op="×">×</button>
+
+                <button class="key key-num" data-num="1">1</button>
+                <button class="key key-num" data-num="2">2</button>
+                <button class="key key-num" data-num="3">3</button>
+                <button id="btnSub" class="key key-op" title="Subtract" data-op="-">-</button>
+
+                <button id="btnCube" class="key key-op" title="Cube">x³</button>
+                <button class="key key-num" data-num="0">0</button>
+                <button id="btnDot" class="key key-num" data-num=".">.</button>
+                <button id="btnAdd" class="key key-op" title="Add" data-op="+">+</button>
+
+                <button id="btnEq" class="key key-eq" title="Equals">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="calculator.js?v=2"></script>
+    <script src="app.js?v=2"></script>
 </body>
-
 </html>

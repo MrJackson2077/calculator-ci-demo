@@ -49,6 +49,33 @@ jobs:
 
             - name: Deploy Project
               run: echo "Deploy Successfully"
+
+            - name: Show Node Version
+              run: node --version
+
+            - name: Show NPM Version
+              run: npm --version
+
+            - name: Show Git Version
+              run: git --version
+
+            - name: Show Event
+              run: echo ${{ github.event_name }}
+
+            - name: Show Date
+              run: date
+
+            - name: pull request
+              run: echo ${{ github.event.pull_request.title }}
+
+            - name: push
+              run: echo ${{ github.event.push.title }}
+
+            - name: workflow_dispatch
+              run: echo ${{ github.event.workflow_dispatch.title }}
+
+            - name: schedule
+              run: echo ${{ github.event.schedule.title }}
         
     nightly-report:
         runs-on: ubuntu-latest

@@ -35,4 +35,12 @@ function cube(a) {
 }
 
 
-module.exports = { add, subtract, multiply, divide, square, cube };
+function squareRoot(a) {
+
+    return Math.sqrt(a);
+
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { add, subtract, multiply, divide, square, cube, squareRoot };
+}

@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A simple calculator project that performs basic arithmetic operations (add, subtract, multiply, divide) and advanced operations (square, cube).
+A simple calculator project that performs basic arithmetic operations (add, subtract, multiply, divide) and advanced operations (square, cube, square root).
 
 ## Technologies Used
 
@@ -38,12 +38,9 @@ npm test
 
 npm run lint
 
-### How To View The Calculator
+### How To Run The Calculator
 
-Open [https://github.com/MrJackson2077/calculator-ci-demo](https://MrJackson2077.github.io/calculator-project/)
-in your browser.
-
-[https://github.com/MrJackson2077/calculator-ci-demo/actions](https://github.com/MrJackson2077/calculator-ci-demo/actions)
+Open `index.html` in your browser. Or run `npm start`
 
 ### CI/CD Flow
 

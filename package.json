@@ -4,6 +4,7 @@
   "description": "",
   "main": "calculator.js",
   "scripts": {
+    "start": "npx http-server . -o -c-1",
     "test": "jest",
     "lint": "eslint"
   },
