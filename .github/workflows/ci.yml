@@ -86,3 +86,12 @@ jobs:
 
             - name: Generate Report
               run: echo "Generating Report"
+
+    hello:
+        runs-on: ubuntu-latest
+        
+        steps:
+
+            - name: Print Message
+              run: echo "Hello Students"
+        
